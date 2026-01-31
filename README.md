@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import dispatch from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-addon-dispatch@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-unary-addon-dispatch/tags). For example,
+
+```javascript
 import dispatch from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-addon-dispatch@v0.1.0-deno/mod.js';
 ```
 
@@ -62,7 +67,7 @@ Returns a function which dispatches to a native add-on applying a unary function
 ```javascript
 import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@deno/mod.js';
 import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-zeros@deno/mod.js';
-import dispatch from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-addon-dispatch@v0.1.0-deno/mod.js';
+import dispatch from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-addon-dispatch@deno/mod.js';
 
 function addon( x, metaX, y, metaY ) {
     // Call into native add-on...
@@ -148,7 +153,7 @@ where
 import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@deno/mod.js';
 import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-zeros@deno/mod.js';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@deno/mod.js';
-import dispatch from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-addon-dispatch@v0.1.0-deno/mod.js';
+import dispatch from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-addon-dispatch@deno/mod.js';
 
 function addon( xbuf, metaX, ybuf, metaY ) {
     console.log( xbuf );

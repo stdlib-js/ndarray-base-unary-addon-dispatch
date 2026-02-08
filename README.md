@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dispatch from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-addon-dispatch@esm/index.mjs';
+import dispatch from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-addon-dispatch@v0.1.1-esm/index.mjs';
 ```
 
 #### dispatch( addon, fallback )
@@ -62,7 +62,7 @@ Returns a function which dispatches to a native add-on applying a unary function
 ```javascript
 import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@esm/index.mjs';
 import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-zeros@esm/index.mjs';
-import dispatch from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-addon-dispatch@esm/index.mjs';
+import dispatch from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-addon-dispatch@v0.1.1-esm/index.mjs';
 
 function addon( x, metaX, y, metaY ) {
     // Call into native add-on...
@@ -153,7 +153,7 @@ where
 import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@esm/index.mjs';
 import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-zeros@esm/index.mjs';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@esm/index.mjs';
-import dispatch from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-addon-dispatch@esm/index.mjs';
+import dispatch from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-addon-dispatch@v0.1.1-esm/index.mjs';
 
 function addon( xbuf, metaX, ybuf, metaY ) {
     console.log( xbuf );
